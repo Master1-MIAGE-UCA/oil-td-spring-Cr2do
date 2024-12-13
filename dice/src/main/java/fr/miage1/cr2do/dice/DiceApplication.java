@@ -3,6 +3,8 @@ package fr.miage1.cr2do.dice;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
+
 @SpringBootApplication
 public class DiceApplication {
 
