@@ -1,13 +1,13 @@
-package com.example.oil_td_spring;
+package fr.miage1.cr2do.dice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OilTdSpringApplicationTests {
+class DiceApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
