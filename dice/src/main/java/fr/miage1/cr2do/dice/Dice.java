@@ -1,16 +1,21 @@
 package fr.miage1.cr2do.dice;
 
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import java.util.Random;
+
 @Component
-public class Dice implements CommandLineRunner {
+public class Dice {
 
 
-    @Override
-    public void run(String... args) throws Exception {
+    private final Random randomValue;
 
+    public Dice() {
+        this.randomValue = new Random();
     }
 
+    public int roll() {
+        return randomValue.nextInt(6) + 1;
+    }
 
 }
